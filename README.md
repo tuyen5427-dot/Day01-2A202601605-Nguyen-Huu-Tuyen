@@ -169,3 +169,26 @@ solution/
 - [ ] `solution/exercises.md` — cả 9 câu đã trả lời
 - [ ] `solution/solution.py` — bản code cuối cùng
 - [ ] Đã zip và đổi tên đúng quy định trước khi upload LMS
+
+
+
+
+
+
+
+
+
+# Copy file này thành .env rồi dán API key của bạn vào:
+#   cp .env.example .env
+
+# ===== Cách 1: OpenAI (mặc định) =====
+
+
+
+# ===== Cách 2: NVIDIA NIM — MIỄN PHÍ (xem LAB_GUIDE.md, Phụ lục B) =====
+# Lấy key tại https://build.nvidia.com rồi bỏ comment 4 dòng dưới
+# (và comment/xóa dòng OPENAI_API_KEY ở trên):
+# OPENAI_API_KEY=nvapi-your-key-here
+# OPENAI_BASE_URL=https://integrate.api.nvidia.com/v1
+# LAB_MODEL=meta/llama-3.3-70b-instruct
+# LAB_MINI_MODEL=meta/llama-3.1-8b-instruct
